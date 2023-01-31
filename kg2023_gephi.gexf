@@ -1,0 +1,1929 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.3" version="1.3" xmlns:viz="http://www.gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.3 http://www.gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2023-01-31">
+    <creator>Gephi 0.9</creator>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="directed" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="type0" type="string"></attribute>
+      <attribute id="1" title="name" type="string"></attribute>
+      <attribute id="type" title="type" type="string"></attribute>
+    </attributes>
+    <attributes class="edge" mode="static">
+      <attribute id="2" title="name" type="string"></attribute>
+      <attribute id="3" title="label" type="string"></attribute>
+    </attributes>
+    <nodes>
+      <node id="3474" label="attraction: 3474">
+        <attvalues>
+          <attvalue for="0" value="attraction"></attvalue>
+          <attvalue for="type" value="attraction"></attvalue>
+        </attvalues>
+        <viz:size value="44.87805"></viz:size>
+        <viz:position x="-1.7632391" y="675.504"></viz:position>
+        <viz:color r="0" g="183" b="218"></viz:color>
+      </node>
+      <node id="psychological" label="psychological">
+        <attvalues>
+          <attvalue for="0" value="functional"></attvalue>
+          <attvalue for="1" value="psychological"></attvalue>
+          <attvalue for="type" value="functional"></attvalue>
+        </attvalues>
+        <viz:size value="20.975609"></viz:size>
+        <viz:position x="31.92932" y="110.86218"></viz:position>
+        <viz:color r="104" g="173" b="54"></viz:color>
+      </node>
+      <node id="physical" label="physical">
+        <attvalues>
+          <attvalue for="0" value="functional"></attvalue>
+          <attvalue for="1" value="physical"></attvalue>
+          <attvalue for="type" value="functional"></attvalue>
+        </attvalues>
+        <viz:size value="19.268293"></viz:size>
+        <viz:position x="104.20387" y="249.43187"></viz:position>
+        <viz:color r="104" g="173" b="54"></viz:color>
+      </node>
+      <node id="cultural_origin" label="cultural_origin">
+        <attvalues>
+          <attvalue for="0" value="functional"></attvalue>
+          <attvalue for="1" value="cultural_origin"></attvalue>
+          <attvalue for="type" value="functional"></attvalue>
+        </attvalues>
+        <viz:size value="19.268293"></viz:size>
+        <viz:position x="166.58191" y="56.351604"></viz:position>
+        <viz:color r="104" g="173" b="54"></viz:color>
+      </node>
+      <node id="period" label="period">
+        <attvalues>
+          <attvalue for="0" value="functional"></attvalue>
+          <attvalue for="1" value="period"></attvalue>
+          <attvalue for="type" value="functional"></attvalue>
+        </attvalues>
+        <viz:size value="19.268293"></viz:size>
+        <viz:position x="-110.430435" y="123.0562"></viz:position>
+        <viz:color r="104" g="173" b="54"></viz:color>
+      </node>
+      <node id="cognition" label="cognition">
+        <attvalues>
+          <attvalue for="0" value="functional"></attvalue>
+          <attvalue for="1" value="cognition"></attvalue>
+          <attvalue for="type" value="functional"></attvalue>
+        </attvalues>
+        <viz:size value="19.268293"></viz:size>
+        <viz:position x="265.4771" y="65.76267"></viz:position>
+        <viz:color r="104" g="173" b="54"></viz:color>
+      </node>
+      <node id="activity" label="activity">
+        <attvalues>
+          <attvalue for="0" value="functional"></attvalue>
+          <attvalue for="1" value="activity"></attvalue>
+          <attvalue for="type" value="functional"></attvalue>
+        </attvalues>
+        <viz:size value="21.829268"></viz:size>
+        <viz:position x="-8.117025" y="10.227026"></viz:position>
+        <viz:color r="104" g="173" b="54"></viz:color>
+      </node>
+      <node id="traditional" label="traditional">
+        <attvalues>
+          <attvalue for="0" value="functional"></attvalue>
+          <attvalue for="1" value="traditional"></attvalue>
+          <attvalue for="type" value="functional"></attvalue>
+        </attvalues>
+        <viz:size value="18.414635"></viz:size>
+        <viz:position x="608.4741" y="390.60565"></viz:position>
+        <viz:color r="104" g="173" b="54"></viz:color>
+      </node>
+      <node id="indigenous" label="indigenous">
+        <attvalues>
+          <attvalue for="0" value="functional"></attvalue>
+          <attvalue for="1" value="indigenous"></attvalue>
+          <attvalue for="type" value="functional"></attvalue>
+        </attvalues>
+        <viz:size value="16.707317"></viz:size>
+        <viz:position x="260.25693" y="408.1163"></viz:position>
+        <viz:color r="104" g="173" b="54"></viz:color>
+      </node>
+      <node id="皇家权贵" label="皇家权贵">
+        <attvalues>
+          <attvalue for="0" value="functional"></attvalue>
+          <attvalue for="1" value="皇家权贵"></attvalue>
+          <attvalue for="type" value="functional"></attvalue>
+        </attvalues>
+        <viz:size value="16.707317"></viz:size>
+        <viz:position x="500.63434" y="586.2672"></viz:position>
+        <viz:color r="104" g="173" b="54"></viz:color>
+      </node>
+      <node id="建筑园林文化" label="建筑园林文化">
+        <attvalues>
+          <attvalue for="0" value="functional"></attvalue>
+          <attvalue for="1" value="建筑园林文化"></attvalue>
+          <attvalue for="type" value="functional"></attvalue>
+        </attvalues>
+        <viz:size value="16.707317"></viz:size>
+        <viz:position x="552.5216" y="659.93146"></viz:position>
+        <viz:color r="104" g="173" b="54"></viz:color>
+      </node>
+      <node id="artificial" label="artificial">
+        <attvalues>
+          <attvalue for="0" value="functional"></attvalue>
+          <attvalue for="1" value="artificial"></attvalue>
+          <attvalue for="type" value="functional"></attvalue>
+        </attvalues>
+        <viz:size value="20.121952"></viz:size>
+        <viz:position x="22.607576" y="253.9901"></viz:position>
+        <viz:color r="104" g="173" b="54"></viz:color>
+      </node>
+      <node id="historical_site" label="historical_site">
+        <attvalues>
+          <attvalue for="0" value="functional"></attvalue>
+          <attvalue for="1" value="historical_site"></attvalue>
+          <attvalue for="type" value="functional"></attvalue>
+        </attvalues>
+        <viz:size value="17.560976"></viz:size>
+        <viz:position x="282.531" y="537.8519"></viz:position>
+        <viz:color r="104" g="173" b="54"></viz:color>
+      </node>
+      <node id="历史遗迹" label="历史遗迹">
+        <attvalues>
+          <attvalue for="0" value="functional"></attvalue>
+          <attvalue for="1" value="历史遗迹"></attvalue>
+          <attvalue for="type" value="functional"></attvalue>
+        </attvalues>
+        <viz:size value="16.707317"></viz:size>
+        <viz:position x="398.78568" y="677.16693"></viz:position>
+        <viz:color r="104" g="173" b="54"></viz:color>
+      </node>
+      <node id="白天玩" label="白天玩">
+        <attvalues>
+          <attvalue for="0" value="functional"></attvalue>
+          <attvalue for="1" value="白天玩"></attvalue>
+          <attvalue for="type" value="functional"></attvalue>
+        </attvalues>
+        <viz:size value="18.414635"></viz:size>
+        <viz:position x="-107.6859" y="196.00288"></viz:position>
+        <viz:color r="104" g="173" b="54"></viz:color>
+      </node>
+      <node id="人文情节（历史积淀）" label="人文情节（历史积淀）">
+        <attvalues>
+          <attvalue for="0" value="functional"></attvalue>
+          <attvalue for="1" value="人文情节（历史积淀）"></attvalue>
+          <attvalue for="type" value="functional"></attvalue>
+        </attvalues>
+        <viz:size value="16.707317"></viz:size>
+        <viz:position x="366.53818" y="439.19006"></viz:position>
+        <viz:color r="104" g="173" b="54"></viz:color>
+      </node>
+      <node id="climate" label="climate">
+        <attvalues>
+          <attvalue for="0" value="functional"></attvalue>
+          <attvalue for="1" value="climate"></attvalue>
+          <attvalue for="type" value="functional"></attvalue>
+        </attvalues>
+        <viz:size value="19.268293"></viz:size>
+        <viz:position x="88.36585" y="188.02074"></viz:position>
+        <viz:color r="104" g="173" b="54"></viz:color>
+      </node>
+      <node id="清爽（秋高气爽）" label="清爽（秋高气爽）">
+        <attvalues>
+          <attvalue for="0" value="functional"></attvalue>
+          <attvalue for="1" value="清爽（秋高气爽）"></attvalue>
+          <attvalue for="type" value="functional"></attvalue>
+        </attvalues>
+        <viz:size value="18.414635"></viz:size>
+        <viz:position x="-46.63347" y="236.66325"></viz:position>
+        <viz:color r="104" g="173" b="54"></viz:color>
+      </node>
+      <node id="拍照（打卡签到）" label="拍照（打卡签到）">
+        <attvalues>
+          <attvalue for="0" value="functional"></attvalue>
+          <attvalue for="1" value="拍照（打卡签到）"></attvalue>
+          <attvalue for="type" value="functional"></attvalue>
+        </attvalues>
+        <viz:size value="18.414635"></viz:size>
+        <viz:position x="-55.18816" y="96.271355"></viz:position>
+        <viz:color r="104" g="173" b="54"></viz:color>
+      </node>
+      <node id="游览（随便看看）" label="游览（随便看看）">
+        <attvalues>
+          <attvalue for="0" value="functional"></attvalue>
+          <attvalue for="1" value="游览（随便看看）"></attvalue>
+          <attvalue for="type" value="functional"></attvalue>
+        </attvalues>
+        <viz:size value="18.414635"></viz:size>
+        <viz:position x="-25.738297" y="158.40941"></viz:position>
+        <viz:color r="104" g="173" b="54"></viz:color>
+      </node>
+      <node id="10123" label="attraction: 10123">
+        <attvalues>
+          <attvalue for="0" value="attraction"></attvalue>
+          <attvalue for="type" value="attraction"></attvalue>
+        </attvalues>
+        <viz:size value="44.02439"></viz:size>
+        <viz:position x="145.7876" y="-374.5555"></viz:position>
+        <viz:color r="0" g="183" b="218"></viz:color>
+      </node>
+      <node id="modern" label="modern">
+        <attvalues>
+          <attvalue for="0" value="functional"></attvalue>
+          <attvalue for="1" value="modern"></attvalue>
+          <attvalue for="type" value="functional"></attvalue>
+        </attvalues>
+        <viz:size value="16.707317"></viz:size>
+        <viz:position x="676.00104" y="-660.11993"></viz:position>
+        <viz:color r="104" g="173" b="54"></viz:color>
+      </node>
+      <node id="foreign" label="foreign">
+        <attvalues>
+          <attvalue for="0" value="functional"></attvalue>
+          <attvalue for="1" value="foreign"></attvalue>
+          <attvalue for="type" value="functional"></attvalue>
+        </attvalues>
+        <viz:size value="15.853659"></viz:size>
+        <viz:position x="-56.371426" y="-399.06393"></viz:position>
+        <viz:color r="104" g="173" b="54"></viz:color>
+      </node>
+      <node id="现代建筑文化" label="现代建筑文化">
+        <attvalues>
+          <attvalue for="0" value="functional"></attvalue>
+          <attvalue for="1" value="现代建筑文化"></attvalue>
+          <attvalue for="type" value="functional"></attvalue>
+        </attvalues>
+        <viz:size value="15.853659"></viz:size>
+        <viz:position x="518.3654" y="-864.36456"></viz:position>
+        <viz:color r="104" g="173" b="54"></viz:color>
+      </node>
+      <node id="amenity" label="amenity">
+        <attvalues>
+          <attvalue for="0" value="functional"></attvalue>
+          <attvalue for="1" value="amenity"></attvalue>
+          <attvalue for="type" value="functional"></attvalue>
+        </attvalues>
+        <viz:size value="19.268293"></viz:size>
+        <viz:position x="-58.055378" y="-91.62544"></viz:position>
+        <viz:color r="104" g="173" b="54"></viz:color>
+      </node>
+      <node id="地标建筑" label="地标建筑">
+        <attvalues>
+          <attvalue for="0" value="functional"></attvalue>
+          <attvalue for="1" value="地标建筑"></attvalue>
+          <attvalue for="type" value="functional"></attvalue>
+        </attvalues>
+        <viz:size value="16.707317"></viz:size>
+        <viz:position x="-370.899" y="-215.58083"></viz:position>
+        <viz:color r="104" g="173" b="54"></viz:color>
+      </node>
+      <node id="壮丽气派（建筑的）" label="壮丽气派（建筑的）">
+        <attvalues>
+          <attvalue for="0" value="functional"></attvalue>
+          <attvalue for="1" value="壮丽气派（建筑的）"></attvalue>
+          <attvalue for="type" value="functional"></attvalue>
+        </attvalues>
+        <viz:size value="15.853659"></viz:size>
+        <viz:position x="238.5299" y="-488.02182"></viz:position>
+        <viz:color r="104" g="173" b="54"></viz:color>
+      </node>
+      <node id="自驾（开车，骑行）" label="自驾（开车，骑行）">
+        <attvalues>
+          <attvalue for="0" value="functional"></attvalue>
+          <attvalue for="1" value="自驾（开车，骑行）"></attvalue>
+          <attvalue for="type" value="functional"></attvalue>
+        </attvalues>
+        <viz:size value="15.853659"></viz:size>
+        <viz:position x="-228.24976" y="-446.33914"></viz:position>
+        <viz:color r="104" g="173" b="54"></viz:color>
+      </node>
+      <node id="3498" label="attraction: 3498">
+        <attvalues>
+          <attvalue for="0" value="attraction"></attvalue>
+          <attvalue for="type" value="attraction"></attvalue>
+        </attvalues>
+        <viz:size value="38.90244"></viz:size>
+        <viz:position x="-571.3399" y="250.31174"></viz:position>
+        <viz:color r="0" g="183" b="218"></viz:color>
+      </node>
+      <node id="3557" label="attraction: 3557">
+        <attvalues>
+          <attvalue for="0" value="attraction"></attvalue>
+          <attvalue for="1" value="3557"></attvalue>
+          <attvalue for="type" value="attraction"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="544.13104" y="110.87396"></viz:position>
+        <viz:color r="0" g="183" b="218"></viz:color>
+      </node>
+      <node id="nature" label="nature">
+        <attvalues>
+          <attvalue for="0" value="functional"></attvalue>
+          <attvalue for="1" value="nature"></attvalue>
+          <attvalue for="type" value="functional"></attvalue>
+        </attvalues>
+        <viz:size value="17.560976"></viz:size>
+        <viz:position x="505.8487" y="316.0811"></viz:position>
+        <viz:color r="104" g="173" b="54"></viz:color>
+      </node>
+      <node id="hydrologic" label="hydrologic">
+        <attvalues>
+          <attvalue for="0" value="functional"></attvalue>
+          <attvalue for="1" value="hydrologic"></attvalue>
+          <attvalue for="type" value="functional"></attvalue>
+        </attvalues>
+        <viz:size value="16.707317"></viz:size>
+        <viz:position x="853.4586" y="467.70578"></viz:position>
+        <viz:color r="104" g="173" b="54"></viz:color>
+      </node>
+      <node id="水（江河湖，包含人造的）" label="水（江河湖，包含人造的）">
+        <attvalues>
+          <attvalue for="0" value="functional"></attvalue>
+          <attvalue for="1" value="水（江河湖，包含人造的）"></attvalue>
+          <attvalue for="type" value="functional"></attvalue>
+        </attvalues>
+        <viz:size value="15.853659"></viz:size>
+        <viz:position x="996.00555" y="551.78424"></viz:position>
+        <viz:color r="104" g="173" b="54"></viz:color>
+      </node>
+      <node id="公园" label="公园">
+        <attvalues>
+          <attvalue for="0" value="functional"></attvalue>
+          <attvalue for="1" value="公园"></attvalue>
+          <attvalue for="type" value="functional"></attvalue>
+        </attvalues>
+        <viz:size value="15.853659"></viz:size>
+        <viz:position x="313.3959" y="-229.86147"></viz:position>
+        <viz:color r="104" g="173" b="54"></viz:color>
+      </node>
+      <node id="休闲（随便逛逛，漫无目的）" label="休闲（随便逛逛，漫无目的）">
+        <attvalues>
+          <attvalue for="0" value="functional"></attvalue>
+          <attvalue for="1" value="休闲（随便逛逛，漫无目的）"></attvalue>
+          <attvalue for="type" value="functional"></attvalue>
+        </attvalues>
+        <viz:size value="15.853659"></viz:size>
+        <viz:position x="418.35126" y="-110.64238"></viz:position>
+        <viz:color r="104" g="173" b="54"></viz:color>
+      </node>
+      <node id="culture_time" label="culture_time">
+        <attvalues>
+          <attvalue for="0" value="functional"></attvalue>
+          <attvalue for="1" value="culture_time"></attvalue>
+          <attvalue for="type" value="functional"></attvalue>
+        </attvalues>
+        <viz:size value="15.853659"></viz:size>
+        <viz:position x="885.784" y="-199.39017"></viz:position>
+        <viz:color r="104" g="173" b="54"></viz:color>
+      </node>
+      <node id="21652" label="21652">
+        <attvalues>
+          <attvalue for="0" value="geographic"></attvalue>
+          <attvalue for="1" value="21652"></attvalue>
+          <attvalue for="type" value="geographic"></attvalue>
+        </attvalues>
+        <viz:size value="15.853659"></viz:size>
+        <viz:position x="-591.53094" y="612.96906"></viz:position>
+        <viz:color r="255" g="116" b="62"></viz:color>
+      </node>
+      <node id="21324" label="21324">
+        <attvalues>
+          <attvalue for="0" value="geographic"></attvalue>
+          <attvalue for="1" value="21324"></attvalue>
+          <attvalue for="type" value="geographic"></attvalue>
+        </attvalues>
+        <viz:size value="15.853659"></viz:size>
+        <viz:position x="-545.9159" y="794.35297"></viz:position>
+        <viz:color r="255" g="116" b="62"></viz:color>
+      </node>
+      <node id="22728" label="22728">
+        <attvalues>
+          <attvalue for="0" value="geographic"></attvalue>
+          <attvalue for="1" value="22728"></attvalue>
+          <attvalue for="type" value="geographic"></attvalue>
+        </attvalues>
+        <viz:size value="15.853659"></viz:size>
+        <viz:position x="-427.85568" y="738.89233"></viz:position>
+        <viz:color r="255" g="116" b="62"></viz:color>
+      </node>
+      <node id="834480" label="834480">
+        <attvalues>
+          <attvalue for="0" value="geographic"></attvalue>
+          <attvalue for="1" value="834480"></attvalue>
+          <attvalue for="type" value="geographic"></attvalue>
+        </attvalues>
+        <viz:size value="15.853659"></viz:size>
+        <viz:position x="-560.4169" y="681.39355"></viz:position>
+        <viz:color r="255" g="116" b="62"></viz:color>
+      </node>
+      <node id="33539280" label="33539280">
+        <attvalues>
+          <attvalue for="0" value="geographic"></attvalue>
+          <attvalue for="1" value="33539280"></attvalue>
+          <attvalue for="type" value="geographic"></attvalue>
+        </attvalues>
+        <viz:size value="15.853659"></viz:size>
+        <viz:position x="-395.07547" y="603.8651"></viz:position>
+        <viz:color r="255" g="116" b="62"></viz:color>
+      </node>
+      <node id="13768664" label="13768664">
+        <attvalues>
+          <attvalue for="0" value="geographic"></attvalue>
+          <attvalue for="1" value="13768664"></attvalue>
+          <attvalue for="type" value="geographic"></attvalue>
+        </attvalues>
+        <viz:size value="15.853659"></viz:size>
+        <viz:position x="-491.07977" y="545.0368"></viz:position>
+        <viz:color r="255" g="116" b="62"></viz:color>
+      </node>
+      <node id="6627820" label="6627820">
+        <attvalues>
+          <attvalue for="0" value="geographic"></attvalue>
+          <attvalue for="1" value="6627820"></attvalue>
+          <attvalue for="type" value="geographic"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-190.16183" y="-803.36804"></viz:position>
+        <viz:color r="255" g="116" b="62"></viz:color>
+      </node>
+      <node id="833443" label="833443">
+        <attvalues>
+          <attvalue for="0" value="geographic"></attvalue>
+          <attvalue for="1" value="833443"></attvalue>
+          <attvalue for="type" value="geographic"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="262.2477" y="-922.19025"></viz:position>
+        <viz:color r="255" g="116" b="62"></viz:color>
+      </node>
+      <node id="22041" label="22041">
+        <attvalues>
+          <attvalue for="0" value="topological"></attvalue>
+          <attvalue for="1" value="22041"></attvalue>
+          <attvalue for="type" value="topological"></attvalue>
+        </attvalues>
+        <viz:size value="15.853659"></viz:size>
+        <viz:position x="476.9088" y="-446.83823"></viz:position>
+        <viz:color r="210" g="124" b="206"></viz:color>
+      </node>
+      <node id="6628162" label="6628162">
+        <attvalues>
+          <attvalue for="0" value="geographic"></attvalue>
+          <attvalue for="1" value="6628162"></attvalue>
+          <attvalue for="type" value="geographic"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="59.12484" y="-1047.8978"></viz:position>
+        <viz:color r="255" g="116" b="62"></viz:color>
+      </node>
+      <node id="33534332" label="33534332">
+        <attvalues>
+          <attvalue for="0" value="geographic"></attvalue>
+          <attvalue for="1" value="33534332"></attvalue>
+          <attvalue for="type" value="geographic"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="225.60985" y="-1048.5452"></viz:position>
+        <viz:color r="255" g="116" b="62"></viz:color>
+      </node>
+      <node id="5485731" label="5485731">
+        <attvalues>
+          <attvalue for="0" value="geographic"></attvalue>
+          <attvalue for="1" value="5485731"></attvalue>
+          <attvalue for="type" value="geographic"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-121.96626" y="-1003.822"></viz:position>
+        <viz:color r="255" g="116" b="62"></viz:color>
+      </node>
+      <node id="6628000" label="6628000">
+        <attvalues>
+          <attvalue for="0" value="geographic"></attvalue>
+          <attvalue for="1" value="6628000"></attvalue>
+          <attvalue for="type" value="geographic"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="1221.5065" y="-42.23509"></viz:position>
+        <viz:color r="255" g="116" b="62"></viz:color>
+      </node>
+      <node id="33533972" label="33533972">
+        <attvalues>
+          <attvalue for="0" value="topological"></attvalue>
+          <attvalue for="1" value="33533972"></attvalue>
+          <attvalue for="type" value="topological"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="1043.3739" y="252.9925"></viz:position>
+        <viz:color r="210" g="124" b="206"></viz:color>
+      </node>
+      <node id="73894820" label="73894820">
+        <attvalues>
+          <attvalue for="0" value="geographic"></attvalue>
+          <attvalue for="1" value="73894820"></attvalue>
+          <attvalue for="type" value="geographic"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="1153.934" y="-160.47643"></viz:position>
+        <viz:color r="255" g="116" b="62"></viz:color>
+      </node>
+      <node id="6628285" label="6628285">
+        <attvalues>
+          <attvalue for="0" value="geographic"></attvalue>
+          <attvalue for="1" value="6628285"></attvalue>
+          <attvalue for="type" value="geographic"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="1052.0925" y="-40.003746"></viz:position>
+        <viz:color r="255" g="116" b="62"></viz:color>
+      </node>
+      <node id="6627949" label="6627949">
+        <attvalues>
+          <attvalue for="0" value="geographic"></attvalue>
+          <attvalue for="1" value="6627949"></attvalue>
+          <attvalue for="type" value="geographic"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="1079.1046" y="-257.37082"></viz:position>
+        <viz:color r="255" g="116" b="62"></viz:color>
+      </node>
+      <node id="33540136" label="33540136">
+        <attvalues>
+          <attvalue for="0" value="geographic"></attvalue>
+          <attvalue for="1" value="33540136"></attvalue>
+          <attvalue for="type" value="geographic"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="1235.9248" y="109.66451"></viz:position>
+        <viz:color r="255" g="116" b="62"></viz:color>
+      </node>
+      <node id="3741" label="3741">
+        <attvalues>
+          <attvalue for="0" value="topological"></attvalue>
+          <attvalue for="1" value="3741"></attvalue>
+          <attvalue for="type" value="topological"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="376.50092" y="1134.7124"></viz:position>
+        <viz:color r="210" g="124" b="206"></viz:color>
+      </node>
+      <node id="33543436" label="33543436">
+        <attvalues>
+          <attvalue for="0" value="topological"></attvalue>
+          <attvalue for="1" value="33543436"></attvalue>
+          <attvalue for="type" value="topological"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="57.154022" y="1330.6528"></viz:position>
+        <viz:color r="210" g="124" b="206"></viz:color>
+      </node>
+      <node id="4877" label="4877">
+        <attvalues>
+          <attvalue for="0" value="topological"></attvalue>
+          <attvalue for="1" value="4877"></attvalue>
+          <attvalue for="type" value="topological"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-71.71708" y="1346.4662"></viz:position>
+        <viz:color r="210" g="124" b="206"></viz:color>
+      </node>
+      <node id="77946" label="77946">
+        <attvalues>
+          <attvalue for="0" value="topological"></attvalue>
+          <attvalue for="1" value="77946"></attvalue>
+          <attvalue for="type" value="topological"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-34.652496" y="1187.6495"></viz:position>
+        <viz:color r="210" g="124" b="206"></viz:color>
+      </node>
+      <node id="21642" label="21642">
+        <attvalues>
+          <attvalue for="0" value="topological"></attvalue>
+          <attvalue for="1" value="21642"></attvalue>
+          <attvalue for="type" value="topological"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-173.88919" y="1226.8414"></viz:position>
+        <viz:color r="210" g="124" b="206"></viz:color>
+      </node>
+      <node id="34665" label="34665">
+        <attvalues>
+          <attvalue for="0" value="topological"></attvalue>
+          <attvalue for="1" value="34665"></attvalue>
+          <attvalue for="type" value="topological"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-297.84406" y="1135.8676"></viz:position>
+        <viz:color r="210" g="124" b="206"></viz:color>
+      </node>
+      <node id="21608" label="21608">
+        <attvalues>
+          <attvalue for="0" value="topological"></attvalue>
+          <attvalue for="1" value="21608"></attvalue>
+          <attvalue for="type" value="topological"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="190.58064" y="1311.5645"></viz:position>
+        <viz:color r="210" g="124" b="206"></viz:color>
+      </node>
+      <node id="3985" label="3985">
+        <attvalues>
+          <attvalue for="0" value="topological"></attvalue>
+          <attvalue for="1" value="3985"></attvalue>
+          <attvalue for="type" value="topological"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="138.97467" y="1169.0096"></viz:position>
+        <viz:color r="210" g="124" b="206"></viz:color>
+      </node>
+      <node id="7327" label="7327">
+        <attvalues>
+          <attvalue for="0" value="topological"></attvalue>
+          <attvalue for="1" value="7327"></attvalue>
+          <attvalue for="type" value="topological"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="302.0358" y="1237.0833"></viz:position>
+        <viz:color r="210" g="124" b="206"></viz:color>
+      </node>
+      <node id="3745" label="3745">
+        <attvalues>
+          <attvalue for="0" value="topological"></attvalue>
+          <attvalue for="1" value="3745"></attvalue>
+          <attvalue for="type" value="topological"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-411.82782" y="1172.5887"></viz:position>
+        <viz:color r="210" g="124" b="206"></viz:color>
+      </node>
+      <node id="3553" label="3553">
+        <attvalues>
+          <attvalue for="0" value="topological"></attvalue>
+          <attvalue for="1" value="3553"></attvalue>
+          <attvalue for="type" value="topological"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-249.06773" y="1317.7172"></viz:position>
+        <viz:color r="210" g="124" b="206"></viz:color>
+      </node>
+      <node id="3506" label="3506">
+        <attvalues>
+          <attvalue for="0" value="topological"></attvalue>
+          <attvalue for="1" value="3506"></attvalue>
+          <attvalue for="type" value="topological"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="391.50626" y="-986.01904"></viz:position>
+        <viz:color r="210" g="124" b="206"></viz:color>
+      </node>
+      <node id="3812" label="3812">
+        <attvalues>
+          <attvalue for="0" value="topological"></attvalue>
+          <attvalue for="1" value="3812"></attvalue>
+          <attvalue for="type" value="topological"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-285.1073" y="-881.2654"></viz:position>
+        <viz:color r="210" g="124" b="206"></viz:color>
+      </node>
+      <node id="803300" label="803300">
+        <attvalues>
+          <attvalue for="0" value="topological"></attvalue>
+          <attvalue for="1" value="803300"></attvalue>
+          <attvalue for="type" value="topological"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="87.86199" y="-892.39343"></viz:position>
+        <viz:color r="210" g="124" b="206"></viz:color>
+      </node>
+      <node id="21709" label="21709">
+        <attvalues>
+          <attvalue for="0" value="topological"></attvalue>
+          <attvalue for="1" value="21709"></attvalue>
+          <attvalue for="type" value="topological"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-46.340057" y="-908.2979"></viz:position>
+        <viz:color r="210" g="124" b="206"></viz:color>
+      </node>
+      <node id="6013334" label="6013334">
+        <attvalues>
+          <attvalue for="0" value="topological"></attvalue>
+          <attvalue for="1" value="6013334"></attvalue>
+          <attvalue for="type" value="topological"></attvalue>
+        </attvalues>
+        <viz:size value="15.853659"></viz:size>
+        <viz:position x="524.29535" y="-268.16464"></viz:position>
+        <viz:color r="210" g="124" b="206"></viz:color>
+      </node>
+      <node id="3472" label="3472">
+        <attvalues>
+          <attvalue for="0" value="topological"></attvalue>
+          <attvalue for="1" value="3472"></attvalue>
+          <attvalue for="type" value="topological"></attvalue>
+        </attvalues>
+        <viz:size value="15.853659"></viz:size>
+        <viz:position x="551.2359" y="-367.81165"></viz:position>
+        <viz:color r="210" g="124" b="206"></viz:color>
+      </node>
+      <node id="33786800" label="33786800">
+        <attvalues>
+          <attvalue for="0" value="topological"></attvalue>
+          <attvalue for="1" value="33786800"></attvalue>
+          <attvalue for="type" value="topological"></attvalue>
+        </attvalues>
+        <viz:size value="15.853659"></viz:size>
+        <viz:position x="655.6185" y="-408.70175"></viz:position>
+        <viz:color r="210" g="124" b="206"></viz:color>
+      </node>
+      <node id="3936" label="3936">
+        <attvalues>
+          <attvalue for="0" value="topological"></attvalue>
+          <attvalue for="1" value="3936"></attvalue>
+          <attvalue for="type" value="topological"></attvalue>
+        </attvalues>
+        <viz:size value="15.853659"></viz:size>
+        <viz:position x="659.2947" y="-289.17688"></viz:position>
+        <viz:color r="210" g="124" b="206"></viz:color>
+      </node>
+      <node id="9081178" label="9081178">
+        <attvalues>
+          <attvalue for="0" value="topological"></attvalue>
+          <attvalue for="1" value="9081178"></attvalue>
+          <attvalue for="type" value="topological"></attvalue>
+        </attvalues>
+        <viz:size value="15.853659"></viz:size>
+        <viz:position x="616.8139" y="-464.85895"></viz:position>
+        <viz:color r="210" g="124" b="206"></viz:color>
+      </node>
+      <node id="3783" label="3783">
+        <attvalues>
+          <attvalue for="0" value="topological"></attvalue>
+          <attvalue for="1" value="3783"></attvalue>
+          <attvalue for="type" value="topological"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-1218.9551" y="240.99815"></viz:position>
+        <viz:color r="210" g="124" b="206"></viz:color>
+      </node>
+      <node id="34837408" label="34837408">
+        <attvalues>
+          <attvalue for="0" value="topological"></attvalue>
+          <attvalue for="1" value="34837408"></attvalue>
+          <attvalue for="type" value="topological"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-1014.4085" y="563.104"></viz:position>
+        <viz:color r="210" g="124" b="206"></viz:color>
+      </node>
+      <node id="33535596" label="33535596">
+        <attvalues>
+          <attvalue for="0" value="topological"></attvalue>
+          <attvalue for="1" value="33535596"></attvalue>
+          <attvalue for="type" value="topological"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-1128.8557" y="601.54767"></viz:position>
+        <viz:color r="210" g="124" b="206"></viz:color>
+      </node>
+      <node id="11789" label="11789">
+        <attvalues>
+          <attvalue for="0" value="topological"></attvalue>
+          <attvalue for="1" value="11789"></attvalue>
+          <attvalue for="type" value="topological"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-1169.3392" y="447.3627"></viz:position>
+        <viz:color r="210" g="124" b="206"></viz:color>
+      </node>
+      <node id="3490" label="3490">
+        <attvalues>
+          <attvalue for="0" value="topological"></attvalue>
+          <attvalue for="1" value="3490"></attvalue>
+          <attvalue for="type" value="topological"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-988.3034" y="-154.35426"></viz:position>
+        <viz:color r="210" g="124" b="206"></viz:color>
+      </node>
+      <node id="21627" label="21627">
+        <attvalues>
+          <attvalue for="0" value="topological"></attvalue>
+          <attvalue for="1" value="21627"></attvalue>
+          <attvalue for="type" value="topological"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-1223.9004" y="93.60512"></viz:position>
+        <viz:color r="210" g="124" b="206"></viz:color>
+      </node>
+      <node id="16511256" label="16511256">
+        <attvalues>
+          <attvalue for="0" value="topological"></attvalue>
+          <attvalue for="1" value="16511256"></attvalue>
+          <attvalue for="type" value="topological"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-1100.8544" y="101.73837"></viz:position>
+        <viz:color r="210" g="124" b="206"></viz:color>
+      </node>
+      <node id="21463" label="21463">
+        <attvalues>
+          <attvalue for="0" value="topological"></attvalue>
+          <attvalue for="1" value="21463"></attvalue>
+          <attvalue for="type" value="topological"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-1121.5472" y="-81.5317"></viz:position>
+        <viz:color r="210" g="124" b="206"></viz:color>
+      </node>
+      <node id="3563" label="3563">
+        <attvalues>
+          <attvalue for="0" value="topological"></attvalue>
+          <attvalue for="1" value="3563"></attvalue>
+          <attvalue for="type" value="topological"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-1220.5258" y="354.0468"></viz:position>
+        <viz:color r="210" g="124" b="206"></viz:color>
+      </node>
+      <node id="7260" label="7260">
+        <attvalues>
+          <attvalue for="0" value="topological"></attvalue>
+          <attvalue for="1" value="7260"></attvalue>
+          <attvalue for="type" value="topological"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-1042.4015" y="327.37915"></viz:position>
+        <viz:color r="210" g="124" b="206"></viz:color>
+      </node>
+      <node id="3519" label="3519">
+        <attvalues>
+          <attvalue for="0" value="topological"></attvalue>
+          <attvalue for="1" value="3519"></attvalue>
+          <attvalue for="type" value="topological"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="-998.1253" y="27.040083"></viz:position>
+        <viz:color r="210" g="124" b="206"></viz:color>
+      </node>
+      <node id="3527" label="3527">
+        <attvalues>
+          <attvalue for="0" value="topological"></attvalue>
+          <attvalue for="1" value="3527"></attvalue>
+          <attvalue for="type" value="topological"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="1107.9736" y="108.84396"></viz:position>
+        <viz:color r="210" g="124" b="206"></viz:color>
+      </node>
+      <node id="3511" label="3511">
+        <attvalues>
+          <attvalue for="0" value="topological"></attvalue>
+          <attvalue for="1" value="3511"></attvalue>
+          <attvalue for="type" value="topological"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="1113.7102" y="474.9006"></viz:position>
+        <viz:color r="210" g="124" b="206"></viz:color>
+      </node>
+      <node id="10160" label="10160">
+        <attvalues>
+          <attvalue for="0" value="topological"></attvalue>
+          <attvalue for="1" value="10160"></attvalue>
+          <attvalue for="type" value="topological"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="1143.3506" y="358.88425"></viz:position>
+        <viz:color r="210" g="124" b="206"></viz:color>
+      </node>
+      <node id="3503" label="3503">
+        <attvalues>
+          <attvalue for="0" value="topological"></attvalue>
+          <attvalue for="1" value="3503"></attvalue>
+          <attvalue for="type" value="topological"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="1221.8041" y="256.85977"></viz:position>
+        <viz:color r="210" g="124" b="206"></viz:color>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="3474" target="psychological">
+        <viz:color r="198" g="134" b="233"></viz:color>
+        <attvalues>
+          <attvalue for="2" value="profile_belonged"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="1" source="3474" target="physical">
+        <viz:color r="198" g="134" b="233"></viz:color>
+        <attvalues>
+          <attvalue for="2" value="profile_belonged"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="2" source="3474" target="cultural_origin">
+        <viz:color r="198" g="134" b="233"></viz:color>
+        <attvalues>
+          <attvalue for="2" value="psychology"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="3" source="3474" target="period">
+        <viz:color r="198" g="134" b="233"></viz:color>
+        <attvalues>
+          <attvalue for="2" value="psychology"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="4" source="3474" target="cognition">
+        <viz:color r="198" g="134" b="233"></viz:color>
+        <attvalues>
+          <attvalue for="2" value="psychology"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="5" source="3474" target="activity">
+        <viz:color r="198" g="134" b="233"></viz:color>
+        <attvalues>
+          <attvalue for="2" value="psychology"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="6" source="3474" target="traditional">
+        <viz:color r="198" g="134" b="233"></viz:color>
+        <attvalues>
+          <attvalue for="2" value="culture_time_type"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="7" source="3474" target="indigenous">
+        <viz:color r="198" g="134" b="233"></viz:color>
+        <attvalues>
+          <attvalue for="2" value="culture_origin_type"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="8" source="3474" target="皇家权贵">
+        <viz:color r="198" g="134" b="233"></viz:color>
+        <attvalues>
+          <attvalue for="2" value="tradition_belonged"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="9" source="3474" target="建筑园林文化">
+        <viz:color r="198" g="134" b="233"></viz:color>
+        <attvalues>
+          <attvalue for="2" value="tradition_belonged"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="10" source="3474" target="artificial">
+        <viz:color r="198" g="134" b="233"></viz:color>
+        <attvalues>
+          <attvalue for="2" value="source_belonged"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="11" source="3474" target="historical_site">
+        <viz:color r="198" g="134" b="233"></viz:color>
+        <attvalues>
+          <attvalue for="2" value="man-made"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="12" source="3474" target="历史遗迹">
+        <viz:color r="198" g="134" b="233"></viz:color>
+        <attvalues>
+          <attvalue for="2" value="history"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="13" source="3474" target="白天玩">
+        <viz:color r="198" g="134" b="233"></viz:color>
+        <attvalues>
+          <attvalue for="2" value="period_belonged"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="14" source="3474" target="人文情节（历史积淀）">
+        <viz:color r="198" g="134" b="233"></viz:color>
+        <attvalues>
+          <attvalue for="2" value="cognition_projected"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="15" source="3474" target="climate">
+        <viz:color r="198" g="134" b="233"></viz:color>
+        <attvalues>
+          <attvalue for="2" value="natural"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="16" source="3474" target="清爽（秋高气爽）">
+        <viz:color r="198" g="134" b="233"></viz:color>
+        <attvalues>
+          <attvalue for="2" value="climate_belonged"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="17" source="3474" target="拍照（打卡签到）">
+        <viz:color r="198" g="134" b="233"></viz:color>
+        <attvalues>
+          <attvalue for="2" value="activity_supported"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="18" source="3474" target="游览（随便看看）">
+        <viz:color r="198" g="134" b="233"></viz:color>
+        <attvalues>
+          <attvalue for="2" value="activity_supported"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="19" source="3474" target="21652">
+        <viz:color r="234" g="134" b="21"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="nearby_attr"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="20" source="3474" target="21324">
+        <viz:color r="234" g="134" b="21"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="nearby_attr"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="21" source="3474" target="22728">
+        <viz:color r="234" g="134" b="21"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="nearby_attr"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="22" source="3474" target="834480">
+        <viz:color r="234" g="134" b="21"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="nearby_attr"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="23" source="3474" target="33539280">
+        <viz:color r="234" g="134" b="21"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="nearby_attr"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="24" source="3474" target="13768664">
+        <viz:color r="234" g="134" b="21"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="nearby_attr"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="25" source="3474" target="3741">
+        <viz:color r="46" g="144" b="114"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="cooperation"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="26" source="3474" target="33543436">
+        <viz:color r="0" g="202" b="255"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="competition"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="27" source="3474" target="4877">
+        <viz:color r="0" g="202" b="255"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="competition"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="28" source="3474" target="77946">
+        <viz:color r="46" g="144" b="114"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="cooperation"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="29" source="3474" target="21642">
+        <viz:color r="46" g="144" b="114"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="cooperation"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="30" source="3474" target="34665">
+        <viz:color r="46" g="144" b="114"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="cooperation"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="31" source="3474" target="21608">
+        <viz:color r="0" g="202" b="255"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="competition"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="32" source="3474" target="3985">
+        <viz:color r="0" g="202" b="255"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="competition"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="33" source="3474" target="7327">
+        <viz:color r="0" g="202" b="255"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="competition"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="34" source="3474" target="3745">
+        <viz:color r="255" g="92" b="129"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="structure_hole"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="35" source="3474" target="3553">
+        <viz:color r="46" g="144" b="114"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="cooperation"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="36" source="cultural_origin" target="psychological">
+        <viz:color r="95" g="198" b="19"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="superior"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="37" source="period" target="psychological">
+        <viz:color r="95" g="198" b="19"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="superior"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="38" source="cognition" target="psychological">
+        <viz:color r="95" g="198" b="19"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="superior"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="39" source="activity" target="psychological">
+        <viz:color r="95" g="198" b="19"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="superior"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="40" source="traditional" target="culture_time">
+        <viz:color r="95" g="198" b="19"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="superior"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="41" source="indigenous" target="cultural_origin">
+        <viz:color r="95" g="198" b="19"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="superior"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="42" source="皇家权贵" target="traditional">
+        <viz:color r="95" g="198" b="19"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="superior"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="43" source="建筑园林文化" target="traditional">
+        <viz:color r="95" g="198" b="19"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="superior"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="44" source="artificial" target="physical">
+        <viz:color r="95" g="198" b="19"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="superior"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="45" source="historical_site" target="artificial">
+        <viz:color r="95" g="198" b="19"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="superior"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="46" source="历史遗迹" target="historical_site">
+        <viz:color r="95" g="198" b="19"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="superior"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="47" source="白天玩" target="period">
+        <viz:color r="95" g="198" b="19"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="superior"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="48" source="人文情节（历史积淀）" target="cognition">
+        <viz:color r="95" g="198" b="19"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="superior"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="49" source="climate" target="nature">
+        <viz:color r="95" g="198" b="19"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="superior"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="50" source="清爽（秋高气爽）" target="climate">
+        <viz:color r="95" g="198" b="19"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="superior"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="51" source="拍照（打卡签到）" target="activity">
+        <viz:color r="95" g="198" b="19"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="superior"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="52" source="游览（随便看看）" target="activity">
+        <viz:color r="95" g="198" b="19"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="superior"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="53" source="10123" target="psychological">
+        <viz:color r="198" g="134" b="233"></viz:color>
+        <attvalues>
+          <attvalue for="2" value="profile_belonged"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="54" source="10123" target="physical">
+        <viz:color r="198" g="134" b="233"></viz:color>
+        <attvalues>
+          <attvalue for="2" value="profile_belonged"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="55" source="10123" target="cultural_origin">
+        <viz:color r="198" g="134" b="233"></viz:color>
+        <attvalues>
+          <attvalue for="2" value="psychology"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="56" source="10123" target="period">
+        <viz:color r="198" g="134" b="233"></viz:color>
+        <attvalues>
+          <attvalue for="2" value="psychology"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="57" source="10123" target="cognition">
+        <viz:color r="198" g="134" b="233"></viz:color>
+        <attvalues>
+          <attvalue for="2" value="psychology"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="58" source="10123" target="activity">
+        <viz:color r="198" g="134" b="233"></viz:color>
+        <attvalues>
+          <attvalue for="2" value="psychology"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="59" source="10123" target="modern">
+        <viz:color r="198" g="134" b="233"></viz:color>
+        <attvalues>
+          <attvalue for="2" value="culture_time_type"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="60" source="10123" target="foreign">
+        <viz:color r="198" g="134" b="233"></viz:color>
+        <attvalues>
+          <attvalue for="2" value="culture_origin_type"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="61" source="10123" target="现代建筑文化">
+        <viz:color r="198" g="134" b="233"></viz:color>
+        <attvalues>
+          <attvalue for="2" value="modern_belonged"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="62" source="10123" target="artificial">
+        <viz:color r="198" g="134" b="233"></viz:color>
+        <attvalues>
+          <attvalue for="2" value="source_belonged"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="63" source="10123" target="amenity">
+        <viz:color r="198" g="134" b="233"></viz:color>
+        <attvalues>
+          <attvalue for="2" value="man-made"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="64" source="10123" target="地标建筑">
+        <viz:color r="198" g="134" b="233"></viz:color>
+        <attvalues>
+          <attvalue for="2" value="amenity_type"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="65" source="10123" target="白天玩">
+        <viz:color r="198" g="134" b="233"></viz:color>
+        <attvalues>
+          <attvalue for="2" value="period_belonged"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="66" source="10123" target="壮丽气派（建筑的）">
+        <viz:color r="198" g="134" b="233"></viz:color>
+        <attvalues>
+          <attvalue for="2" value="cognition_projected"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="67" source="10123" target="climate">
+        <viz:color r="198" g="134" b="233"></viz:color>
+        <attvalues>
+          <attvalue for="2" value="natural"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="68" source="10123" target="清爽（秋高气爽）">
+        <viz:color r="198" g="134" b="233"></viz:color>
+        <attvalues>
+          <attvalue for="2" value="climate_belonged"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="69" source="10123" target="拍照（打卡签到）">
+        <viz:color r="198" g="134" b="233"></viz:color>
+        <attvalues>
+          <attvalue for="2" value="activity_supported"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="70" source="10123" target="游览（随便看看）">
+        <viz:color r="198" g="134" b="233"></viz:color>
+        <attvalues>
+          <attvalue for="2" value="activity_supported"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="71" source="10123" target="自驾（开车，骑行）">
+        <viz:color r="198" g="134" b="233"></viz:color>
+        <attvalues>
+          <attvalue for="2" value="activity_supported"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="72" source="10123" target="6627820">
+        <viz:color r="234" g="134" b="21"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="nearby_attr"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="73" source="10123" target="833443">
+        <viz:color r="234" g="134" b="21"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="nearby_attr"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="74" source="10123" target="22041">
+        <viz:color r="0" g="202" b="255"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="competition"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="75" source="10123" target="6628162">
+        <viz:color r="234" g="134" b="21"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="nearby_attr"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="76" source="10123" target="33534332">
+        <viz:color r="234" g="134" b="21"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="nearby_attr"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="77" source="10123" target="5485731">
+        <viz:color r="234" g="134" b="21"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="nearby_attr"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="78" source="10123" target="3506">
+        <viz:color r="255" g="92" b="129"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="structure_hole"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="79" source="10123" target="3812">
+        <viz:color r="255" g="92" b="129"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="structure_hole"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="80" source="10123" target="803300">
+        <viz:color r="0" g="202" b="255"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="competition"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="81" source="10123" target="21709">
+        <viz:color r="0" g="202" b="255"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="competition"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="82" source="10123" target="3557">
+        <viz:color r="255" g="92" b="129"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="structure_hole"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="83" source="10123" target="6013334">
+        <viz:color r="0" g="202" b="255"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="competition"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="84" source="10123" target="3472">
+        <viz:color r="255" g="92" b="129"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="structure_hole"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="85" source="10123" target="33786800">
+        <viz:color r="0" g="202" b="255"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="competition"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="86" source="10123" target="3936">
+        <viz:color r="46" g="144" b="114"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="cooperation"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="87" source="10123" target="9081178">
+        <viz:color r="0" g="202" b="255"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="competition"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="88" source="modern" target="culture_time">
+        <viz:color r="95" g="198" b="19"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="superior"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="89" source="foreign" target="cultural_origin">
+        <viz:color r="95" g="198" b="19"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="superior"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="90" source="现代建筑文化" target="modern">
+        <viz:color r="95" g="198" b="19"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="superior"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="91" source="amenity" target="artificial">
+        <viz:color r="95" g="198" b="19"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="superior"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="92" source="地标建筑" target="amenity">
+        <viz:color r="95" g="198" b="19"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="superior"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="93" source="壮丽气派（建筑的）" target="cognition">
+        <viz:color r="95" g="198" b="19"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="superior"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="94" source="自驾（开车，骑行）" target="activity">
+        <viz:color r="95" g="198" b="19"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="superior"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="95" source="3498" target="physical">
+        <viz:color r="198" g="134" b="233"></viz:color>
+        <attvalues>
+          <attvalue for="2" value="profile_belonged"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="96" source="3498" target="psychological">
+        <viz:color r="198" g="134" b="233"></viz:color>
+        <attvalues>
+          <attvalue for="2" value="profile_belonged"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="97" source="3498" target="artificial">
+        <viz:color r="198" g="134" b="233"></viz:color>
+        <attvalues>
+          <attvalue for="2" value="source_belonged"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="98" source="3498" target="amenity">
+        <viz:color r="198" g="134" b="233"></viz:color>
+        <attvalues>
+          <attvalue for="2" value="man-made"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="99" source="3498" target="地标建筑">
+        <viz:color r="198" g="134" b="233"></viz:color>
+        <attvalues>
+          <attvalue for="2" value="amenity_type"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="100" source="3498" target="period">
+        <viz:color r="198" g="134" b="233"></viz:color>
+        <attvalues>
+          <attvalue for="2" value="psychology"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="101" source="3498" target="activity">
+        <viz:color r="198" g="134" b="233"></viz:color>
+        <attvalues>
+          <attvalue for="2" value="psychology"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="102" source="3498" target="白天玩">
+        <viz:color r="198" g="134" b="233"></viz:color>
+        <attvalues>
+          <attvalue for="2" value="period_belonged"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="103" source="3498" target="climate">
+        <viz:color r="198" g="134" b="233"></viz:color>
+        <attvalues>
+          <attvalue for="2" value="natural"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="104" source="3498" target="清爽（秋高气爽）">
+        <viz:color r="198" g="134" b="233"></viz:color>
+        <attvalues>
+          <attvalue for="2" value="climate_belonged"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="105" source="3498" target="拍照（打卡签到）">
+        <viz:color r="198" g="134" b="233"></viz:color>
+        <attvalues>
+          <attvalue for="2" value="activity_supported"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="106" source="3498" target="游览（随便看看）">
+        <viz:color r="198" g="134" b="233"></viz:color>
+        <attvalues>
+          <attvalue for="2" value="activity_supported"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="107" source="3498" target="21652">
+        <viz:color r="234" g="134" b="21"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="nearby_attr"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="108" source="3498" target="21324">
+        <viz:color r="234" g="134" b="21"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="nearby_attr"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="109" source="3498" target="22728">
+        <viz:color r="234" g="134" b="21"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="nearby_attr"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="110" source="3498" target="834480">
+        <viz:color r="234" g="134" b="21"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="nearby_attr"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="111" source="3498" target="33539280">
+        <viz:color r="234" g="134" b="21"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="nearby_attr"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="112" source="3498" target="13768664">
+        <viz:color r="234" g="134" b="21"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="nearby_attr"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="113" source="3498" target="3783">
+        <viz:color r="46" g="144" b="114"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="cooperation"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="114" source="3498" target="34837408">
+        <viz:color r="0" g="202" b="255"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="competition"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="115" source="3498" target="33535596">
+        <viz:color r="0" g="202" b="255"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="competition"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="116" source="3498" target="11789">
+        <viz:color r="0" g="202" b="255"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="competition"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="117" source="3498" target="3490">
+        <viz:color r="0" g="202" b="255"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="competition"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="118" source="3498" target="21627">
+        <viz:color r="0" g="202" b="255"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="competition"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="119" source="3498" target="16511256">
+        <viz:color r="0" g="202" b="255"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="competition"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="120" source="3498" target="21463">
+        <viz:color r="46" g="144" b="114"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="cooperation"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="121" source="3498" target="3563">
+        <viz:color r="46" g="144" b="114"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="cooperation"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="122" source="3498" target="7260">
+        <viz:color r="0" g="202" b="255"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="competition"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="123" source="3498" target="3519">
+        <viz:color r="255" g="92" b="129"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="structure_hole"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="124" source="3557" target="psychological">
+        <viz:color r="198" g="134" b="233"></viz:color>
+        <attvalues>
+          <attvalue for="2" value="profile_belonged"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="125" source="3557" target="physical">
+        <viz:color r="198" g="134" b="233"></viz:color>
+        <attvalues>
+          <attvalue for="2" value="profile_belonged"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="126" source="3557" target="cultural_origin">
+        <viz:color r="198" g="134" b="233"></viz:color>
+        <attvalues>
+          <attvalue for="2" value="psychology"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="127" source="3557" target="period">
+        <viz:color r="198" g="134" b="233"></viz:color>
+        <attvalues>
+          <attvalue for="2" value="psychology"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="128" source="3557" target="cognition">
+        <viz:color r="198" g="134" b="233"></viz:color>
+        <attvalues>
+          <attvalue for="2" value="psychology"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="129" source="3557" target="activity">
+        <viz:color r="198" g="134" b="233"></viz:color>
+        <attvalues>
+          <attvalue for="2" value="psychology"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="130" source="3557" target="traditional">
+        <viz:color r="198" g="134" b="233"></viz:color>
+        <attvalues>
+          <attvalue for="2" value="culture_time_type"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="131" source="3557" target="indigenous">
+        <viz:color r="198" g="134" b="233"></viz:color>
+        <attvalues>
+          <attvalue for="2" value="culture_origin_type"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="132" source="3557" target="皇家权贵">
+        <viz:color r="198" g="134" b="233"></viz:color>
+        <attvalues>
+          <attvalue for="2" value="tradition_belonged"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="133" source="3557" target="建筑园林文化">
+        <viz:color r="198" g="134" b="233"></viz:color>
+        <attvalues>
+          <attvalue for="2" value="tradition_belonged"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="134" source="3557" target="nature">
+        <viz:color r="198" g="134" b="233"></viz:color>
+        <attvalues>
+          <attvalue for="2" value="source_belonged"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="135" source="3557" target="artificial">
+        <viz:color r="198" g="134" b="233"></viz:color>
+        <attvalues>
+          <attvalue for="2" value="source_belonged"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="136" source="3557" target="hydrologic">
+        <viz:color r="198" g="134" b="233"></viz:color>
+        <attvalues>
+          <attvalue for="2" value="natural"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="137" source="3557" target="climate">
+        <viz:color r="198" g="134" b="233"></viz:color>
+        <attvalues>
+          <attvalue for="2" value="natural"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="138" source="3557" target="水（江河湖，包含人造的）">
+        <viz:color r="198" g="134" b="233"></viz:color>
+        <attvalues>
+          <attvalue for="2" value="hydrology"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="139" source="3557" target="amenity">
+        <viz:color r="198" g="134" b="233"></viz:color>
+        <attvalues>
+          <attvalue for="2" value="man-made"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="140" source="3557" target="historical_site">
+        <viz:color r="198" g="134" b="233"></viz:color>
+        <attvalues>
+          <attvalue for="2" value="man-made"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="141" source="3557" target="公园">
+        <viz:color r="198" g="134" b="233"></viz:color>
+        <attvalues>
+          <attvalue for="2" value="amenity_type"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="142" source="3557" target="历史遗迹">
+        <viz:color r="198" g="134" b="233"></viz:color>
+        <attvalues>
+          <attvalue for="2" value="history"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="143" source="3557" target="白天玩">
+        <viz:color r="198" g="134" b="233"></viz:color>
+        <attvalues>
+          <attvalue for="2" value="period_belonged"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="144" source="3557" target="人文情节（历史积淀）">
+        <viz:color r="198" g="134" b="233"></viz:color>
+        <attvalues>
+          <attvalue for="2" value="cognition_projected"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="145" source="3557" target="清爽（秋高气爽）">
+        <viz:color r="198" g="134" b="233"></viz:color>
+        <attvalues>
+          <attvalue for="2" value="climate_belonged"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="146" source="3557" target="拍照（打卡签到）">
+        <viz:color r="198" g="134" b="233"></viz:color>
+        <attvalues>
+          <attvalue for="2" value="activity_supported"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="147" source="3557" target="游览（随便看看）">
+        <viz:color r="198" g="134" b="233"></viz:color>
+        <attvalues>
+          <attvalue for="2" value="activity_supported"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="148" source="3557" target="休闲（随便逛逛，漫无目的）">
+        <viz:color r="198" g="134" b="233"></viz:color>
+        <attvalues>
+          <attvalue for="2" value="activity_supported"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="149" source="3557" target="6628000">
+        <viz:color r="234" g="134" b="21"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="nearby_attr"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="150" source="3557" target="33533972">
+        <viz:color r="0" g="202" b="255"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="competition"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="151" source="3557" target="73894820">
+        <viz:color r="234" g="134" b="21"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="nearby_attr"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="152" source="3557" target="6628285">
+        <viz:color r="234" g="134" b="21"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="nearby_attr"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="153" source="3557" target="6627949">
+        <viz:color r="234" g="134" b="21"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="nearby_attr"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="154" source="3557" target="33540136">
+        <viz:color r="234" g="134" b="21"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="nearby_attr"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="155" source="3557" target="6013334">
+        <viz:color r="0" g="202" b="255"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="competition"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="156" source="3557" target="3472">
+        <viz:color r="255" g="92" b="129"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="structure_hole"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="157" source="3557" target="22041">
+        <viz:color r="0" g="202" b="255"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="competition"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="158" source="3557" target="33786800">
+        <viz:color r="0" g="202" b="255"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="competition"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="159" source="3557" target="3936">
+        <viz:color r="46" g="144" b="114"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="cooperation"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="160" source="3557" target="9081178">
+        <viz:color r="0" g="202" b="255"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="competition"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="161" source="3557" target="3527">
+        <viz:color r="46" g="144" b="114"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="cooperation"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="162" source="3557" target="3511">
+        <viz:color r="255" g="92" b="129"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="structure_hole"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="163" source="3557" target="10160">
+        <viz:color r="255" g="92" b="129"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="structure_hole"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="164" source="3557" target="3503">
+        <viz:color r="255" g="92" b="129"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="structure_hole"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="165" source="nature" target="physical">
+        <viz:color r="95" g="198" b="19"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="superior"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="166" source="hydrologic" target="nature">
+        <viz:color r="95" g="198" b="19"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="superior"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="167" source="水（江河湖，包含人造的）" target="hydrologic">
+        <viz:color r="95" g="198" b="19"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="superior"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="168" source="公园" target="amenity">
+        <viz:color r="95" g="198" b="19"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="superior"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="169" source="休闲（随便逛逛，漫无目的）" target="activity">
+        <viz:color r="95" g="198" b="19"></viz:color>
+        <attvalues>
+          <attvalue for="3" value="superior"></attvalue>
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

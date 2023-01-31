@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <script src="./echarts.js"></script>
+    <script src="./dataTool.js"></script>
+    <script src="./jquery-3.6.3.min.js"></script>
+</head>
+<body>
+    <!-- <input type="button" value="Chord chart" onclick="javascript:button_onclick();" /> -->
+    <!-- <input type="button" value="Force layout" onclick="javascript:button_onclick2();" /> -->
+    <div id="main" style="width: 1200px;height:580px;"></div>
+    <script>
+    var layout_show = 'none'
+    var curveness = '0.4'
+    var option = {}
+
+    var myChart = echarts.init(document.getElementById('main'));
+    myChart.showLoading();
+    $.get('./kg2023_gephi.gexf', function (xml) {
+        myChart.hideLoading();
+        var graph = echarts.dataTool.gexf.parse(xml);
+        var categories = [{name: "attraction"}, {name: "functional"}, {name: "geographic"}, 
+        {name: 'topological'}]
+
+        graph.nodes.forEach(function (node) {
+            node.itemStyle = null;
+            node.value = node.symbolSize;
+            node.symbolSize /= 0.95;
+            node.colorAlpha /= 0.3;
+            node.label = {
+                normal: {
+                    show: node.symbolSize >= 40
+                }
+            };
+            node.category = node.attributes.type;
+        });
+        var option = {
+            title: {
+                show: true,
+                text: 'Tourism-KG 2023',
+                subtext: 'State Key Laboratory of Resources and Environmental Information System',
+                // top: 'bottom',
+                left: 'right',
+                bottom: '3%',
+                textStyle:{
+                    fontSize:40,
+                    color: 'black'
+        }
+            },
+            toolbox: {
+                show: true,
+                feature: {
+                dataView:{
+                    show:true
+                },
+                restore:{
+                    show:true
+                },
+                dataZoom:{
+                    show:true
+                },
+                saveAsImage: {
+                    show: true
+                }
+        }
+    },
+            tooltip: { 
+                show: true,
+               },
+            legend: [{
+                // selectedMode: 'single',
+                // data: Object.keys(categories)
+				// selectedMode: 'single',
+					data: categories.map(function(a) {
+						return a.name;
+						})
+            }],
+            animationDuration: 1500,
+            animationEasingUpdate: 'quinticInOut',
+            series: [
+                {
+                    name: 'Tourism-KG',
+                    type: 'graph',
+                    layout: layout_show,
+                    force: {
+                        repulsion: 1000,
+                        gravity: 0.0001
+                },
+                    data: graph.nodes,
+                    links: graph.links,
+                    categories: categories,
+                    roam: true,
+                    focusNodeAdjacency: true,
+                    itemStyle: {
+                        normal: {
+                            borderColor: '#fff',
+                            borderWidth: 1,
+                            shadowBlur: 10,
+                            shadowColor: 'rgba(0, 0, 0, 0.3)'
+                        }
+                    },
+                    label: {
+                        position: 'inside',
+                        formatter: '{b}',
+                        fontWeight: 'bold',
+                        fontSize: 16
+                    },
+                    lineStyle: {
+                        color: 'source',
+                        opacity: 0.7,
+                        curveness: 0.1
+                    },
+                    emphasis: {
+                        lineStyle: {
+                            width: 8
+                        }
+                    }
+                }
+            ]
+        };
+        myChart.setOption(option);
+    }, 'xml');
+    function button_onclick(){
+        layout_show = 'circular';
+        curveness = '0.3';
+            $.get('./KG2.1.gexf', function (xml) {
+        myChart.hideLoading();
+        var graph = echarts.dataTool.gexf.parse(xml);
+        var categories = {};
+        graph.nodes.forEach(function (node) {
+            node.itemStyle = null;
+            node.value = node.symbolSize;
+            node.symbolSize /= 1.5;
+            node.colorAlpha /= 0.3;
+            node.label = {
+                normal: {
+                    show: node.symbolSize > 20
+                }
+            };
+            node.category = node.attributes.modularity_class;
+            categories[node.category] = 1;
+        });
+        var option = {
+            title: {
+                show: true,
+                text: 'Arcadia',
+                subtext: 'State Key Laboratory of Resources and Environmental Information System',
+                // top: 'bottom',
+                left: 'right',
+                bottom: '1%',
+                textStyle:{
+                    fontSize:40,
+                    color: 'black'
+        }
+            },
+            toolbox: {
+                show: true,
+                feature: {
+                dataView:{
+                    show:true
+                },
+                restore:{
+                    show:true
+                },
+                dataZoom:{
+                    show:true
+                },
+                saveAsImage: {
+                    show: true
+                }
+        }
+    },
+            tooltip: {},
+            legend: [{
+                // selectedMode: 'single',
+                data: Object.keys(categories)
+            }],
+            animationDuration: 1500,
+            animationEasingUpdate: 'quinticInOut',
+            series: [
+                {
+                    name: 'Arcadia',
+                    type: 'graph',
+                    layout: layout_show,
+                    force: {
+                        repulsion: 800,
+                        gravity: 0.002
+                },
+                    data: graph.nodes,
+                    links: graph.links,
+                    categories: Object.keys(categories).map(i => ({
+                        name: i
+                    })),
+                    roam: true,
+                    focusNodeAdjacency: true,
+                    itemStyle: {
+                        normal: {
+                            borderColor: '#fff',
+                            borderWidth: 1,
+                            shadowBlur: 10,
+                            shadowColor: 'rgba(0, 0, 0, 0.3)'
+                        }
+                    },
+                    label: {
+                        position: 'inside',
+                        formatter: '{b}',
+                        fontWeight: 'bold',
+                        fontSize: 16
+                    },
+                    lineStyle: {
+                        color: 'source',
+                        opacity: 0.7,
+                        curveness: curveness
+                    },
+                    emphasis: {
+                        lineStyle: {
+                            width: 8
+                        }
+                    }
+                }
+            ]
+        };
+        myChart.setOption(option);
+    }, 'xml');
+    }
+    function button_onclick2(){
+        layout_show = 'force';
+        curveness = '0.0';
+            $.get('./KG2.1.gexf', function (xml) {
+        myChart.hideLoading();
+        var graph = echarts.dataTool.gexf.parse(xml);
+        var categories = {};
+        graph.nodes.forEach(function (node) {
+            node.itemStyle = null;
+            node.value = node.symbolSize;
+            node.symbolSize /= 1.5;
+            node.colorAlpha /= 0.3;
+            node.label = {
+                normal: {
+                    show: node.symbolSize > 20
+                }
+            };
+            node.category = node.attributes.modularity_class;
+            categories[node.category] = 1;
+        });
+        var option = {
+            title: {
+                show: true,
+                text: 'Arcadia2.0',
+                subtext: 'State Key Laboratory of Resources and Environmental Information System',
+                // top: 'bottom',
+                left: 'right',
+                bottom: '1%',
+                textStyle:{
+                    fontSize:40,
+                    color: 'black'
+        }
+            },
+            toolbox: {
+                show: true,
+                feature: {
+                dataView:{
+                    show:true
+                },
+                restore:{
+                    show:true
+                },
+                dataZoom:{
+                    show:true
+                },
+                saveAsImage: {
+                    show: true
+                }
+        }
+    },
+            tooltip: {},
+            legend: [{
+                // selectedMode: 'single',
+                data: Object.keys(categories)
+            }],
+            animationDuration: 1500,
+            animationEasingUpdate: 'quinticInOut',
+            series: [
+                {
+                    name: 'Arcadia2.0',
+                    type: 'graph',
+                    layout: layout_show,
+                    force: {
+                        repulsion: 800,
+                        gravity: 0.002
+                },
+                    data: graph.nodes,
+                    links: graph.links,
+                    categories: Object.keys(categories).map(i => ({
+                        name: i
+                    })),
+                    roam: true,
+                    focusNodeAdjacency: true,
+                    itemStyle: {
+                        normal: {
+                            borderColor: '#fff',
+                            borderWidth: 1,
+                            shadowBlur: 10,
+                            shadowColor: 'rgba(0, 0, 0, 0.3)'
+                        }
+                    },
+                    label: {
+                        position: 'inside',
+                        formatter: '{b}',
+                        fontWeight: 'bold',
+                        fontSize: 16
+                    },
+                    lineStyle: {
+                        color: 'source',
+                        opacity: 0.7,
+                        curveness: curveness
+                    },
+                    emphasis: {
+                        lineStyle: {
+                            width: 8
+                        }
+                    }
+                }
+            ]
+        };
+        myChart.setOption(option);
+    }, 'xml');
+    }
+    </script>
+</body>
+</html>
